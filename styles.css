@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
+
+:root {
+    --primary-color: rgb(181, 253, 47);
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav{
+    display: flex;
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px;
+    height: 10vh;
+}
+
+@media (max-width: 28.75em){
+.nav {
+    justify-content: center;
+}
+}
+
+ul {
+    list-style: none;
+    padding-top: 1.5rem;
+
+}
+
+.nav .nav-pills {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding-right: 2rem;
+
+}
+
+.navbar .nav-pills {
+    text-align: right;
+}
