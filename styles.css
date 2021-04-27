@@ -23,23 +23,20 @@ body {
     width: 100%;
     justify-content: flex-end;
     padding: 0px;
-    height: 10vh;
+    
 }
 
 @media (max-width: 28.75em){
 .nav {
     justify-content: center;
+    height: 20vh;
 }
 }
 
 ul {
     list-style: none;
-    padding-top: 1.5rem;
+    padding: 1.5rem;
 
-}
-
-.nav .nav-pills {
-    text-align: right;
 }
 
 li {
@@ -50,16 +47,35 @@ li {
 
 .navbar .nav-pills {
     text-align: right;
+    
 }
 
 .links{
     text-decoration: none;
+    
 }
 
 .container{
-    /* display: block; */
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    padding: 0rem
+    background-color: #000;
+    background-image: linear-gradient(
+62deg
+, #3a3d40 0%, #1c29e0 100%);
+color: orange;
+}
+
+.project-section{
+    width: 100%;
+    height: ;
+}
+
+@media (max-width: 30.625em){
+.projects-section {
+    padding: 6rem 1rem;
+}
 }
