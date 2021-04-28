@@ -71,11 +71,59 @@ color: orange;
 
 .project-section{
     width: 100%;
-    height: ;
+    
 }
 
 @media (max-width: 30.625em){
 .projects-section {
     padding: 6rem 1rem;
 }
+}
+
+
+.card-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 10rem;
+}
+
+@media (max-width: 800px) {
+    .card-container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(177, 170, 166);
+    width: calc(40% / 5);
+    height: 13rem;
+    margin: 50px;
+    border: 5px solid rgb(128, 110, 108);
+    border-radius: 1rem;
+    padding: 5rem;
+
+}
+
+@media (max-width: 800px) {
+    .card {
+        max-width: 300px;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+
+
+    }
+}
+
+.card-img {
+    width: 85%;
+    border-radius: 2rem;
 }
