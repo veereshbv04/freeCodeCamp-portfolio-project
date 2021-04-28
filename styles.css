@@ -127,3 +127,12 @@ color: orange;
     width: 85%;
     border-radius: 2rem;
 }
+
+span{
+    margin: auto;
+}
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+}
